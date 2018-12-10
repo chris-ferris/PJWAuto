@@ -1,0 +1,600 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		ED3EBCEA19F719CD00E02725 /* Library.m in Sources */ = {isa = PBXBuildFile; fileRef = ED3EBCE919F719CD00E02725 /* Library.m */; };
+		ED3EBCF119F71E7700E02725 /* Controller.m in Sources */ = {isa = PBXBuildFile; fileRef = ED3EBCF019F71E7700E02725 /* Controller.m */; };
+		ED415B831AD45AAE00D8E356 /* VehicleController.m in Sources */ = {isa = PBXBuildFile; fileRef = ED415B821AD45AAE00D8E356 /* VehicleController.m */; };
+		ED4EA89F1A0D58330026E78D /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ED4EA89E1A0D58330026E78D /* MapKit.framework */; };
+		ED50C2711A00A92D00E588D9 /* MapController.m in Sources */ = {isa = PBXBuildFile; fileRef = ED50C2701A00A92D00E588D9 /* MapController.m */; };
+		ED54AEBB1A990859002EF11C /* ServiceNoiseController.m in Sources */ = {isa = PBXBuildFile; fileRef = ED54AEBA1A990859002EF11C /* ServiceNoiseController.m */; };
+		ED5906F01AD577FF00706277 /* VehicleOtherController.m in Sources */ = {isa = PBXBuildFile; fileRef = ED5906EF1AD577FF00706277 /* VehicleOtherController.m */; };
+		ED60DA061AAA3D99000F6CFF /* VehicleNoteController.m in Sources */ = {isa = PBXBuildFile; fileRef = ED60DA051AAA3D99000F6CFF /* VehicleNoteController.m */; };
+		ED60DA091AAA3E28000F6CFF /* ServiceNoteController.m in Sources */ = {isa = PBXBuildFile; fileRef = ED60DA081AAA3E28000F6CFF /* ServiceNoteController.m */; };
+		ED6BB4D51A867C3600D6F3BF /* Calendar.m in Sources */ = {isa = PBXBuildFile; fileRef = ED6BB4D41A867C3600D6F3BF /* Calendar.m */; };
+		ED6DFD101AAB8ECF00268632 /* SocialController.m in Sources */ = {isa = PBXBuildFile; fileRef = ED6DFD0F1AAB8ECF00268632 /* SocialController.m */; };
+		ED718D281ADE28AA00F57BB8 /* VehicleGarageController.m in Sources */ = {isa = PBXBuildFile; fileRef = ED718D271ADE28AA00F57BB8 /* VehicleGarageController.m */; };
+		ED768A171A81D6790009E689 /* ServiceDateController.m in Sources */ = {isa = PBXBuildFile; fileRef = ED768A161A81D6790009E689 /* ServiceDateController.m */; };
+		ED768A1A1A81D6B80009E689 /* ServiceTimeController.m in Sources */ = {isa = PBXBuildFile; fileRef = ED768A191A81D6B80009E689 /* ServiceTimeController.m */; };
+		ED768A201A81D7630009E689 /* ServiceTypeController.m in Sources */ = {isa = PBXBuildFile; fileRef = ED768A1F1A81D7630009E689 /* ServiceTypeController.m */; };
+		ED768A261A81D7DC0009E689 /* VehicleYearController.m in Sources */ = {isa = PBXBuildFile; fileRef = ED768A251A81D7DC0009E689 /* VehicleYearController.m */; };
+		ED768A291A81D8460009E689 /* VehicleMakeController.m in Sources */ = {isa = PBXBuildFile; fileRef = ED768A281A81D8460009E689 /* VehicleMakeController.m */; };
+		ED768A2C1A81D88D0009E689 /* VehicleModelController.m in Sources */ = {isa = PBXBuildFile; fileRef = ED768A2B1A81D88D0009E689 /* VehicleModelController.m */; };
+		ED7947691A92DD88005B4169 /* Service.m in Sources */ = {isa = PBXBuildFile; fileRef = ED7947681A92DD88005B4169 /* Service.m */; };
+		ED8323551AFEE72700A405BC /* VoguePerformanceExhaust.m4a in Resources */ = {isa = PBXBuildFile; fileRef = ED8323541AFEE72700A405BC /* VoguePerformanceExhaust.m4a */; };
+		ED83235D1AFEE8F100A405BC /* BatteryWeak.m4a in Resources */ = {isa = PBXBuildFile; fileRef = ED8323561AFEE8F100A405BC /* BatteryWeak.m4a */; };
+		ED83235E1AFEE8F100A405BC /* BeltSqueal.m4a in Resources */ = {isa = PBXBuildFile; fileRef = ED8323571AFEE8F100A405BC /* BeltSqueal.m4a */; };
+		ED83235F1AFEE8F100A405BC /* BrakeGrind.m4a in Resources */ = {isa = PBXBuildFile; fileRef = ED8323581AFEE8F100A405BC /* BrakeGrind.m4a */; };
+		ED8323611AFEE8F100A405BC /* HeaterBlowerClick.m4a in Resources */ = {isa = PBXBuildFile; fileRef = ED83235A1AFEE8F100A405BC /* HeaterBlowerClick.m4a */; };
+		ED8323621AFEE8F100A405BC /* SwayLinksLoose.m4a in Resources */ = {isa = PBXBuildFile; fileRef = ED83235B1AFEE8F100A405BC /* SwayLinksLoose.m4a */; };
+		ED8323631AFEE8F100A405BC /* VacuumLeak.m4a in Resources */ = {isa = PBXBuildFile; fileRef = ED83235C1AFEE8F100A405BC /* VacuumLeak.m4a */; };
+		ED90879B19F7FFC900065602 /* RootController.m in Sources */ = {isa = PBXBuildFile; fileRef = ED90879A19F7FFC900065602 /* RootController.m */; };
+		ED934E041A9CF686002A33A7 /* ServiceWaitController.m in Sources */ = {isa = PBXBuildFile; fileRef = ED934E031A9CF686002A33A7 /* ServiceWaitController.m */; };
+		ED9507011A0C6F4400CAADA0 /* AppointmentController.m in Sources */ = {isa = PBXBuildFile; fileRef = ED9507001A0C6F4400CAADA0 /* AppointmentController.m */; };
+		ED9526651B1C2A6700A6E2ED /* SuccessController.m in Sources */ = {isa = PBXBuildFile; fileRef = ED9526641B1C2A6700A6E2ED /* SuccessController.m */; };
+		ED9BB3B71A400B39009CD205 /* ContactController.m in Sources */ = {isa = PBXBuildFile; fileRef = ED9BB3B61A400B39009CD205 /* ContactController.m */; };
+		EDA141451ADEE39400045EC0 /* ServiceController.m in Sources */ = {isa = PBXBuildFile; fileRef = EDA141441ADEE39400045EC0 /* ServiceController.m */; };
+		EDA5512319F6FA2B0037EDD8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EDA5512219F6FA2B0037EDD8 /* main.m */; };
+		EDA5512619F6FA2B0037EDD8 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EDA5512519F6FA2B0037EDD8 /* AppDelegate.m */; };
+		EDA5512E19F6FA2B0037EDD8 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EDA5512D19F6FA2B0037EDD8 /* Images.xcassets */; };
+		EDA5513119F6FA2B0037EDD8 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = EDA5512F19F6FA2B0037EDD8 /* LaunchScreen.xib */; };
+		EDC356211AC3C18600E0E829 /* PJWAutoGarage.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EDC356201AC3C18600E0E829 /* PJWAutoGarage.jpg */; };
+		EDC356251AC3C1A900E0E829 /* PJWAutoSign.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EDC356241AC3C1A900E0E829 /* PJWAutoSign.jpg */; };
+		EDC356271AC3C85A00E0E829 /* PJWAutoCar.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EDC356261AC3C85A00E0E829 /* PJWAutoCar.jpg */; };
+		EDC595CB1A899EA7002AC6FD /* Date.m in Sources */ = {isa = PBXBuildFile; fileRef = EDC595CA1A899EA7002AC6FD /* Date.m */; };
+		EDCFE1481AA4CD9700DA129B /* Contact.m in Sources */ = {isa = PBXBuildFile; fileRef = EDCFE1471AA4CD9700DA129B /* Contact.m */; };
+		EDCFE14B1AA582C900DA129B /* Vehicle.m in Sources */ = {isa = PBXBuildFile; fileRef = EDCFE14A1AA582C900DA129B /* Vehicle.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		ED3EBCE819F719CD00E02725 /* Library.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Library.h; sourceTree = "<group>"; };
+		ED3EBCE919F719CD00E02725 /* Library.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Library.m; sourceTree = "<group>"; };
+		ED3EBCEF19F71E7700E02725 /* Controller.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Controller.h; sourceTree = "<group>"; };
+		ED3EBCF019F71E7700E02725 /* Controller.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Controller.m; sourceTree = "<group>"; };
+		ED3EBCF219F71F7300E02725 /* ControllerExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ControllerExtension.h; sourceTree = "<group>"; };
+		ED415B811AD45AAE00D8E356 /* VehicleController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VehicleController.h; sourceTree = "<group>"; };
+		ED415B821AD45AAE00D8E356 /* VehicleController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VehicleController.m; sourceTree = "<group>"; };
+		ED4EA89E1A0D58330026E78D /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		ED50C26F1A00A92D00E588D9 /* MapController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MapController.h; sourceTree = "<group>"; };
+		ED50C2701A00A92D00E588D9 /* MapController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MapController.m; sourceTree = "<group>"; };
+		ED54AEB91A990859002EF11C /* ServiceNoiseController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ServiceNoiseController.h; sourceTree = "<group>"; };
+		ED54AEBA1A990859002EF11C /* ServiceNoiseController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ServiceNoiseController.m; sourceTree = "<group>"; };
+		ED5906EE1AD577FF00706277 /* VehicleOtherController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VehicleOtherController.h; sourceTree = "<group>"; };
+		ED5906EF1AD577FF00706277 /* VehicleOtherController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VehicleOtherController.m; sourceTree = "<group>"; };
+		ED5906F11AD57DEC00706277 /* VehicleControllerExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VehicleControllerExtension.h; sourceTree = "<group>"; };
+		ED60DA041AAA3D99000F6CFF /* VehicleNoteController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VehicleNoteController.h; sourceTree = "<group>"; };
+		ED60DA051AAA3D99000F6CFF /* VehicleNoteController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VehicleNoteController.m; sourceTree = "<group>"; };
+		ED60DA071AAA3E28000F6CFF /* ServiceNoteController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ServiceNoteController.h; sourceTree = "<group>"; };
+		ED60DA081AAA3E28000F6CFF /* ServiceNoteController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ServiceNoteController.m; sourceTree = "<group>"; };
+		ED6BB4D31A867C3600D6F3BF /* Calendar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Calendar.h; sourceTree = "<group>"; };
+		ED6BB4D41A867C3600D6F3BF /* Calendar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Calendar.m; sourceTree = "<group>"; };
+		ED6DFD0E1AAB8ECF00268632 /* SocialController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SocialController.h; sourceTree = "<group>"; };
+		ED6DFD0F1AAB8ECF00268632 /* SocialController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SocialController.m; sourceTree = "<group>"; };
+		ED718D261ADE28AA00F57BB8 /* VehicleGarageController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VehicleGarageController.h; sourceTree = "<group>"; };
+		ED718D271ADE28AA00F57BB8 /* VehicleGarageController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VehicleGarageController.m; sourceTree = "<group>"; };
+		ED768A151A81D6790009E689 /* ServiceDateController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ServiceDateController.h; sourceTree = "<group>"; };
+		ED768A161A81D6790009E689 /* ServiceDateController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ServiceDateController.m; sourceTree = "<group>"; };
+		ED768A181A81D6B80009E689 /* ServiceTimeController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ServiceTimeController.h; sourceTree = "<group>"; };
+		ED768A191A81D6B80009E689 /* ServiceTimeController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ServiceTimeController.m; sourceTree = "<group>"; };
+		ED768A1E1A81D7630009E689 /* ServiceTypeController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ServiceTypeController.h; sourceTree = "<group>"; };
+		ED768A1F1A81D7630009E689 /* ServiceTypeController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ServiceTypeController.m; sourceTree = "<group>"; };
+		ED768A241A81D7DC0009E689 /* VehicleYearController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VehicleYearController.h; sourceTree = "<group>"; };
+		ED768A251A81D7DC0009E689 /* VehicleYearController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VehicleYearController.m; sourceTree = "<group>"; };
+		ED768A271A81D8460009E689 /* VehicleMakeController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VehicleMakeController.h; sourceTree = "<group>"; };
+		ED768A281A81D8460009E689 /* VehicleMakeController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VehicleMakeController.m; sourceTree = "<group>"; };
+		ED768A2A1A81D88D0009E689 /* VehicleModelController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VehicleModelController.h; sourceTree = "<group>"; };
+		ED768A2B1A81D88D0009E689 /* VehicleModelController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VehicleModelController.m; sourceTree = "<group>"; };
+		ED7947671A92DD88005B4169 /* Service.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Service.h; sourceTree = "<group>"; };
+		ED7947681A92DD88005B4169 /* Service.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Service.m; sourceTree = "<group>"; };
+		ED8323541AFEE72700A405BC /* VoguePerformanceExhaust.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = VoguePerformanceExhaust.m4a; sourceTree = "<group>"; };
+		ED8323561AFEE8F100A405BC /* BatteryWeak.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = BatteryWeak.m4a; sourceTree = "<group>"; };
+		ED8323571AFEE8F100A405BC /* BeltSqueal.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = BeltSqueal.m4a; sourceTree = "<group>"; };
+		ED8323581AFEE8F100A405BC /* BrakeGrind.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = BrakeGrind.m4a; sourceTree = "<group>"; };
+		ED83235A1AFEE8F100A405BC /* HeaterBlowerClick.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = HeaterBlowerClick.m4a; sourceTree = "<group>"; };
+		ED83235B1AFEE8F100A405BC /* SwayLinksLoose.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = SwayLinksLoose.m4a; sourceTree = "<group>"; };
+		ED83235C1AFEE8F100A405BC /* VacuumLeak.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = VacuumLeak.m4a; sourceTree = "<group>"; };
+		ED90879919F7FFC900065602 /* RootController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RootController.h; sourceTree = "<group>"; };
+		ED90879A19F7FFC900065602 /* RootController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RootController.m; sourceTree = "<group>"; };
+		ED934E021A9CF686002A33A7 /* ServiceWaitController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ServiceWaitController.h; sourceTree = "<group>"; };
+		ED934E031A9CF686002A33A7 /* ServiceWaitController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ServiceWaitController.m; sourceTree = "<group>"; };
+		ED9506FF1A0C6F4400CAADA0 /* AppointmentController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppointmentController.h; sourceTree = "<group>"; };
+		ED9507001A0C6F4400CAADA0 /* AppointmentController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppointmentController.m; sourceTree = "<group>"; };
+		ED9526631B1C2A6700A6E2ED /* SuccessController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SuccessController.h; sourceTree = "<group>"; };
+		ED9526641B1C2A6700A6E2ED /* SuccessController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SuccessController.m; sourceTree = "<group>"; };
+		ED9BB3B51A400B39009CD205 /* ContactController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ContactController.h; sourceTree = "<group>"; };
+		ED9BB3B61A400B39009CD205 /* ContactController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ContactController.m; sourceTree = "<group>"; };
+		EDA141431ADEE39400045EC0 /* ServiceController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ServiceController.h; sourceTree = "<group>"; };
+		EDA141441ADEE39400045EC0 /* ServiceController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ServiceController.m; sourceTree = "<group>"; };
+		EDA141461ADEE46600045EC0 /* ServiceControllerExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ServiceControllerExtension.h; sourceTree = "<group>"; };
+		EDA5511D19F6FA2B0037EDD8 /* PJW Auto.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "PJW Auto.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EDA5512119F6FA2B0037EDD8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EDA5512219F6FA2B0037EDD8 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		EDA5512419F6FA2B0037EDD8 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		EDA5512519F6FA2B0037EDD8 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		EDA5512D19F6FA2B0037EDD8 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		EDA5513019F6FA2B0037EDD8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		EDC356201AC3C18600E0E829 /* PJWAutoGarage.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = PJWAutoGarage.jpg; sourceTree = "<group>"; };
+		EDC356241AC3C1A900E0E829 /* PJWAutoSign.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = PJWAutoSign.jpg; sourceTree = "<group>"; };
+		EDC356261AC3C85A00E0E829 /* PJWAutoCar.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = PJWAutoCar.jpg; sourceTree = "<group>"; };
+		EDC595C91A899EA7002AC6FD /* Date.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Date.h; sourceTree = "<group>"; };
+		EDC595CA1A899EA7002AC6FD /* Date.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Date.m; sourceTree = "<group>"; };
+		EDCFE1461AA4CD9700DA129B /* Contact.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Contact.h; sourceTree = "<group>"; };
+		EDCFE1471AA4CD9700DA129B /* Contact.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Contact.m; sourceTree = "<group>"; };
+		EDCFE1491AA582C900DA129B /* Vehicle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Vehicle.h; sourceTree = "<group>"; };
+		EDCFE14A1AA582C900DA129B /* Vehicle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Vehicle.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EDA5511A19F6FA2B0037EDD8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ED4EA89F1A0D58330026E78D /* MapKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EDA5511419F6FA2B0037EDD8 = {
+			isa = PBXGroup;
+			children = (
+				EDA5511E19F6FA2B0037EDD8 /* App */,
+				ED4EA89E1A0D58330026E78D /* MapKit.framework */,
+				EDA5511F19F6FA2B0037EDD8 /* Source */,
+			);
+			sourceTree = "<group>";
+		};
+		EDA5511E19F6FA2B0037EDD8 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				EDA5511D19F6FA2B0037EDD8 /* PJW Auto.app */,
+			);
+			name = App;
+			sourceTree = "<group>";
+		};
+		EDA5511F19F6FA2B0037EDD8 /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				EDA5514A19F702E40037EDD8 /* Code */,
+				EDA5512019F6FA2B0037EDD8 /* Support */,
+			);
+			name = Source;
+			path = "PJW Auto";
+			sourceTree = "<group>";
+		};
+		EDA5512019F6FA2B0037EDD8 /* Support */ = {
+			isa = PBXGroup;
+			children = (
+				EDA5512119F6FA2B0037EDD8 /* Info.plist */,
+				EDA5512D19F6FA2B0037EDD8 /* Images.xcassets */,
+				EDA5512F19F6FA2B0037EDD8 /* LaunchScreen.xib */,
+				EDC356101AC38B7300E0E829 /* Photos */,
+				EDC356111AC38C3A00E0E829 /* Audio */,
+			);
+			name = Support;
+			sourceTree = "<group>";
+		};
+		EDA5514619F702100037EDD8 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				ED3EBCEF19F71E7700E02725 /* Controller.h */,
+				ED3EBCF219F71F7300E02725 /* ControllerExtension.h */,
+				ED3EBCF019F71E7700E02725 /* Controller.m */,
+				ED90879919F7FFC900065602 /* RootController.h */,
+				ED90879A19F7FFC900065602 /* RootController.m */,
+				ED9506FF1A0C6F4400CAADA0 /* AppointmentController.h */,
+				ED9507001A0C6F4400CAADA0 /* AppointmentController.m */,
+				ED9526631B1C2A6700A6E2ED /* SuccessController.h */,
+				ED9526641B1C2A6700A6E2ED /* SuccessController.m */,
+				ED50C26F1A00A92D00E588D9 /* MapController.h */,
+				ED50C2701A00A92D00E588D9 /* MapController.m */,
+				ED6DFD0E1AAB8ECF00268632 /* SocialController.h */,
+				ED6DFD0F1AAB8ECF00268632 /* SocialController.m */,
+				ED9BB3B51A400B39009CD205 /* ContactController.h */,
+				ED9BB3B61A400B39009CD205 /* ContactController.m */,
+				EDE92FDB1AAEA1C6000A2A11 /* Service */,
+				EDE92FDA1AAEA1AB000A2A11 /* Vehicle */,
+			);
+			name = ViewController;
+			sourceTree = "<group>";
+		};
+		EDA5514819F702370037EDD8 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				ED7947671A92DD88005B4169 /* Service.h */,
+				ED7947681A92DD88005B4169 /* Service.m */,
+				ED6BB4D31A867C3600D6F3BF /* Calendar.h */,
+				ED6BB4D41A867C3600D6F3BF /* Calendar.m */,
+				EDC595C91A899EA7002AC6FD /* Date.h */,
+				EDC595CA1A899EA7002AC6FD /* Date.m */,
+				EDCFE1491AA582C900DA129B /* Vehicle.h */,
+				EDCFE14A1AA582C900DA129B /* Vehicle.m */,
+				EDCFE1461AA4CD9700DA129B /* Contact.h */,
+				EDCFE1471AA4CD9700DA129B /* Contact.m */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		EDA5514919F702570037EDD8 /* Global */ = {
+			isa = PBXGroup;
+			children = (
+				EDA5512219F6FA2B0037EDD8 /* main.m */,
+				EDA5512419F6FA2B0037EDD8 /* AppDelegate.h */,
+				EDA5512519F6FA2B0037EDD8 /* AppDelegate.m */,
+				ED3EBCE819F719CD00E02725 /* Library.h */,
+				ED3EBCE919F719CD00E02725 /* Library.m */,
+			);
+			name = Global;
+			sourceTree = "<group>";
+		};
+		EDA5514A19F702E40037EDD8 /* Code */ = {
+			isa = PBXGroup;
+			children = (
+				EDA5514919F702570037EDD8 /* Global */,
+				EDA5514819F702370037EDD8 /* Model */,
+				EDA5514619F702100037EDD8 /* ViewController */,
+			);
+			name = Code;
+			sourceTree = "<group>";
+		};
+		EDC356101AC38B7300E0E829 /* Photos */ = {
+			isa = PBXGroup;
+			children = (
+				EDC356201AC3C18600E0E829 /* PJWAutoGarage.jpg */,
+				EDC356261AC3C85A00E0E829 /* PJWAutoCar.jpg */,
+				EDC356241AC3C1A900E0E829 /* PJWAutoSign.jpg */,
+			);
+			name = Photos;
+			sourceTree = "<group>";
+		};
+		EDC356111AC38C3A00E0E829 /* Audio */ = {
+			isa = PBXGroup;
+			children = (
+				ED8323561AFEE8F100A405BC /* BatteryWeak.m4a */,
+				ED8323571AFEE8F100A405BC /* BeltSqueal.m4a */,
+				ED8323581AFEE8F100A405BC /* BrakeGrind.m4a */,
+				ED83235A1AFEE8F100A405BC /* HeaterBlowerClick.m4a */,
+				ED83235B1AFEE8F100A405BC /* SwayLinksLoose.m4a */,
+				ED83235C1AFEE8F100A405BC /* VacuumLeak.m4a */,
+				ED8323541AFEE72700A405BC /* VoguePerformanceExhaust.m4a */,
+			);
+			name = Audio;
+			sourceTree = "<group>";
+		};
+		EDE92FDA1AAEA1AB000A2A11 /* Vehicle */ = {
+			isa = PBXGroup;
+			children = (
+				ED415B811AD45AAE00D8E356 /* VehicleController.h */,
+				ED5906F11AD57DEC00706277 /* VehicleControllerExtension.h */,
+				ED415B821AD45AAE00D8E356 /* VehicleController.m */,
+				ED718D261ADE28AA00F57BB8 /* VehicleGarageController.h */,
+				ED718D271ADE28AA00F57BB8 /* VehicleGarageController.m */,
+				ED768A241A81D7DC0009E689 /* VehicleYearController.h */,
+				ED768A251A81D7DC0009E689 /* VehicleYearController.m */,
+				ED768A271A81D8460009E689 /* VehicleMakeController.h */,
+				ED768A281A81D8460009E689 /* VehicleMakeController.m */,
+				ED768A2A1A81D88D0009E689 /* VehicleModelController.h */,
+				ED768A2B1A81D88D0009E689 /* VehicleModelController.m */,
+				ED60DA041AAA3D99000F6CFF /* VehicleNoteController.h */,
+				ED60DA051AAA3D99000F6CFF /* VehicleNoteController.m */,
+				ED5906EE1AD577FF00706277 /* VehicleOtherController.h */,
+				ED5906EF1AD577FF00706277 /* VehicleOtherController.m */,
+			);
+			name = Vehicle;
+			sourceTree = "<group>";
+		};
+		EDE92FDB1AAEA1C6000A2A11 /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				EDA141431ADEE39400045EC0 /* ServiceController.h */,
+				EDA141461ADEE46600045EC0 /* ServiceControllerExtension.h */,
+				EDA141441ADEE39400045EC0 /* ServiceController.m */,
+				ED768A151A81D6790009E689 /* ServiceDateController.h */,
+				ED768A161A81D6790009E689 /* ServiceDateController.m */,
+				ED768A181A81D6B80009E689 /* ServiceTimeController.h */,
+				ED768A191A81D6B80009E689 /* ServiceTimeController.m */,
+				ED934E021A9CF686002A33A7 /* ServiceWaitController.h */,
+				ED934E031A9CF686002A33A7 /* ServiceWaitController.m */,
+				ED768A1E1A81D7630009E689 /* ServiceTypeController.h */,
+				ED768A1F1A81D7630009E689 /* ServiceTypeController.m */,
+				ED54AEB91A990859002EF11C /* ServiceNoiseController.h */,
+				ED54AEBA1A990859002EF11C /* ServiceNoiseController.m */,
+				ED60DA071AAA3E28000F6CFF /* ServiceNoteController.h */,
+				ED60DA081AAA3E28000F6CFF /* ServiceNoteController.m */,
+			);
+			name = Service;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EDA5511C19F6FA2B0037EDD8 /* PJW Auto */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EDA5514019F6FA2B0037EDD8 /* Build configuration list for PBXNativeTarget "PJW Auto" */;
+			buildPhases = (
+				EDA5511919F6FA2B0037EDD8 /* Sources */,
+				EDA5511A19F6FA2B0037EDD8 /* Frameworks */,
+				EDA5511B19F6FA2B0037EDD8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "PJW Auto";
+			productName = "PJW Auto";
+			productReference = EDA5511D19F6FA2B0037EDD8 /* PJW Auto.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EDA5511519F6FA2B0037EDD8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = "sub11 LLC";
+				TargetAttributes = {
+					EDA5511C19F6FA2B0037EDD8 = {
+						CreatedOnToolsVersion = 6.1;
+						DevelopmentTeam = XBYPMUQ6JE;
+						SystemCapabilities = {
+							com.apple.Maps.iOS = {
+								enabled = 1;
+							};
+						};
+					};
+				};
+			};
+			buildConfigurationList = EDA5511819F6FA2B0037EDD8 /* Build configuration list for PBXProject "PJW Auto" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EDA5511419F6FA2B0037EDD8;
+			productRefGroup = EDA5511E19F6FA2B0037EDD8 /* App */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EDA5511C19F6FA2B0037EDD8 /* PJW Auto */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EDA5511B19F6FA2B0037EDD8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ED83235E1AFEE8F100A405BC /* BeltSqueal.m4a in Resources */,
+				ED8323621AFEE8F100A405BC /* SwayLinksLoose.m4a in Resources */,
+				EDA5513119F6FA2B0037EDD8 /* LaunchScreen.xib in Resources */,
+				EDC356251AC3C1A900E0E829 /* PJWAutoSign.jpg in Resources */,
+				EDC356211AC3C18600E0E829 /* PJWAutoGarage.jpg in Resources */,
+				EDC356271AC3C85A00E0E829 /* PJWAutoCar.jpg in Resources */,
+				ED8323631AFEE8F100A405BC /* VacuumLeak.m4a in Resources */,
+				ED83235F1AFEE8F100A405BC /* BrakeGrind.m4a in Resources */,
+				ED8323611AFEE8F100A405BC /* HeaterBlowerClick.m4a in Resources */,
+				EDA5512E19F6FA2B0037EDD8 /* Images.xcassets in Resources */,
+				ED8323551AFEE72700A405BC /* VoguePerformanceExhaust.m4a in Resources */,
+				ED83235D1AFEE8F100A405BC /* BatteryWeak.m4a in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EDA5511919F6FA2B0037EDD8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ED768A1A1A81D6B80009E689 /* ServiceTimeController.m in Sources */,
+				ED60DA091AAA3E28000F6CFF /* ServiceNoteController.m in Sources */,
+				ED9526651B1C2A6700A6E2ED /* SuccessController.m in Sources */,
+				ED768A291A81D8460009E689 /* VehicleMakeController.m in Sources */,
+				EDCFE1481AA4CD9700DA129B /* Contact.m in Sources */,
+				EDC595CB1A899EA7002AC6FD /* Date.m in Sources */,
+				ED3EBCF119F71E7700E02725 /* Controller.m in Sources */,
+				EDA141451ADEE39400045EC0 /* ServiceController.m in Sources */,
+				EDCFE14B1AA582C900DA129B /* Vehicle.m in Sources */,
+				ED934E041A9CF686002A33A7 /* ServiceWaitController.m in Sources */,
+				ED6DFD101AAB8ECF00268632 /* SocialController.m in Sources */,
+				ED5906F01AD577FF00706277 /* VehicleOtherController.m in Sources */,
+				ED9BB3B71A400B39009CD205 /* ContactController.m in Sources */,
+				ED415B831AD45AAE00D8E356 /* VehicleController.m in Sources */,
+				ED50C2711A00A92D00E588D9 /* MapController.m in Sources */,
+				ED768A261A81D7DC0009E689 /* VehicleYearController.m in Sources */,
+				ED60DA061AAA3D99000F6CFF /* VehicleNoteController.m in Sources */,
+				ED768A201A81D7630009E689 /* ServiceTypeController.m in Sources */,
+				ED3EBCEA19F719CD00E02725 /* Library.m in Sources */,
+				ED768A171A81D6790009E689 /* ServiceDateController.m in Sources */,
+				ED54AEBB1A990859002EF11C /* ServiceNoiseController.m in Sources */,
+				ED90879B19F7FFC900065602 /* RootController.m in Sources */,
+				EDA5512619F6FA2B0037EDD8 /* AppDelegate.m in Sources */,
+				ED9507011A0C6F4400CAADA0 /* AppointmentController.m in Sources */,
+				ED6BB4D51A867C3600D6F3BF /* Calendar.m in Sources */,
+				ED768A2C1A81D88D0009E689 /* VehicleModelController.m in Sources */,
+				ED7947691A92DD88005B4169 /* Service.m in Sources */,
+				EDA5512319F6FA2B0037EDD8 /* main.m in Sources */,
+				ED718D281ADE28AA00F57BB8 /* VehicleGarageController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		EDA5512F19F6FA2B0037EDD8 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EDA5513019F6FA2B0037EDD8 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EDA5513E19F6FA2B0037EDD8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EDA5513F19F6FA2B0037EDD8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EDA5514119F6FA2B0037EDD8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = "PJW Auto/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.sub11.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		EDA5514219F6FA2B0037EDD8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = "PJW Auto/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.sub11.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EDA5511819F6FA2B0037EDD8 /* Build configuration list for PBXProject "PJW Auto" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EDA5513E19F6FA2B0037EDD8 /* Debug */,
+				EDA5513F19F6FA2B0037EDD8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EDA5514019F6FA2B0037EDD8 /* Build configuration list for PBXNativeTarget "PJW Auto" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EDA5514119F6FA2B0037EDD8 /* Debug */,
+				EDA5514219F6FA2B0037EDD8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EDA5511519F6FA2B0037EDD8 /* Project object */;
+}
